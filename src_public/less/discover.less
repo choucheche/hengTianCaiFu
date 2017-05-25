@@ -1,0 +1,97 @@
+#discover{
+  width:100%;
+  .discover_list{
+    margin-bottom:20px;
+    .box{
+      margin-top:20px;
+      background:#fff;
+      .titleBox{
+        width:100%;
+        padding:22px 22px 22px 30px;
+        height:90px;
+        .icon{
+          width:44px;
+          height:44px;
+          background-size:44px 44px;
+        }
+        .one{
+          background:url('../images/public/discover_icon1.png') no-repeat center center;
+        }
+        .two{
+          background:url('../images/public/discover_icon2.png') no-repeat center center;
+        }
+        .three{
+          background:url('../images/public/discover_icon3.png') no-repeat center center;
+        }
+        .four{
+          background:url('../images/public/discover_icon4.png') no-repeat center center;
+        }
+        .five{
+          background:url('../images/public/discover_icon5.png') no-repeat center center;
+        }
+        div{
+          margin-left:30px;
+          color:@titleColor;
+          font-size:28px;
+          line-height:44px;
+        }
+        .arrows{
+          width:20px;
+          height:9px;
+          background:url('../images/public/top_icon.png') no-repeat center center;
+          background-size:20px 9px;
+          position:relative;
+          top:18px;
+          left:0;
+        }
+      }
+      .sonList{
+        width:100%;
+        padding: 0 22px 17px 77px;
+        height:0;
+        overflow: hidden;
+        transition: all 0.5s linear;
+        .sonBox{
+          width:100%;
+          position:relative;
+          left:0;
+          top:0;
+          height:51px;
+          padding:10px 0 1px;
+          overflow: hidden;
+          .icon{
+            width:20px;
+            height:20px;
+            position:absolute;
+            left:0px;
+            top:20px;
+          }
+          .one{
+            background:url('../images/public/sonBox_icon1.png') no-repeat center center;
+            background-size:20px 20px;
+          }
+          a{
+            margin-left:28px;
+            line-height:40px;
+            font-size:20px;
+            color:@navColor;
+            border-bottom: 1px @borderColor solid;
+            width:100%;
+          }
+        }
+      }
+    }
+    .open{
+      .titleBox{
+        .arrows{
+          background:url('../images/public/top_icon2.png') no-repeat center center;
+          background-size:20px 9px;
+        }
+      }
+      .sonList{
+        padding: 0 22px 17px 77px;
+        height:auto;
+      }
+    }
+  }
+}

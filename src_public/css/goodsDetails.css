@@ -1,0 +1,11 @@
+#goodsDetails .man_header ul {
+  width: 100%;
+  padding: 0 60px 0 72px;
+  height: 40px;
+}
+#goodsDetails .man_header ul li {
+  background: #000;
+  line-height: 40px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdvb2RzRGV0YWlscy5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGFBQ0UsWUFDRTtFQUNFLFdBQUE7RUFDQSxzQkFBQTtFQUNBLFlBQUE7O0FBTE4sYUFDRSxZQUNFLEdBSUU7RUFDRSxnQkFBQTtFQUNBLGlCQUFBIiwic291cmNlc0NvbnRlbnQiOlsiI2dvb2RzRGV0YWlsc3tcclxuICAubWFuX2hlYWRlcntcclxuICAgIHVse1xyXG4gICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICBwYWRkaW5nOjAgNjBweCAwIDcycHg7XHJcbiAgICAgIGhlaWdodDo0MHB4O1xyXG4gICAgICBsaXtcclxuICAgICAgICBiYWNrZ3JvdW5kOiMwMDA7XHJcbiAgICAgICAgbGluZS1oZWlnaHQ6NDBweDtcclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iXSwiZmlsZSI6Imdvb2RzRGV0YWlscy5jc3MifQ== */

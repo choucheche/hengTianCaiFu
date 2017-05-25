@@ -1,0 +1,12 @@
+#timeLimitBuy .navBox {
+  width: 100%;
+}
+#timeLimitBuy .navBox div {
+  width: 50%;
+  height: 80px;
+  line-height: 80px;
+  font-size: 28px;
+  background: #fff;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRpbWVMaW1pdEJ1eS5sZXNzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGFBQ0U7RUFDRSxXQUFBOztBQUZKLGFBQ0UsUUFFRTtFQUNFLFVBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUEiLCJzb3VyY2VzQ29udGVudCI6WyIjdGltZUxpbWl0QnV5e1xyXG4gIC5uYXZCb3h7XHJcbiAgICB3aWR0aDoxMDAlO1xyXG4gICAgZGl2e1xyXG4gICAgICB3aWR0aDo1MCU7XHJcbiAgICAgIGhlaWdodDo4MHB4O1xyXG4gICAgICBsaW5lLWhlaWdodDo4MHB4O1xyXG4gICAgICBmb250LXNpemU6MjhweDtcclxuICAgICAgYmFja2dyb3VuZDojZmZmO1xyXG4gICAgICAmLmFjdGl2ZXtcclxuICAgICAgICBcclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iXSwiZmlsZSI6InRpbWVMaW1pdEJ1eS5jc3MifQ== */

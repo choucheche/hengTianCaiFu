@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+  -webkit-text-size-adjust:none;
+}
+html * {
+    outline: 0;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none; //关闭字体大小自动调整功能.
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body,
+html {
+    font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Roboto,STHeiTi,Arial,sans-serif;
+    width:100%;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    color: #000;
+    background: #fff;
+    width: 100%;
+    .fs(16);
+    display:inline-block;
+}
+
+body,
+pre {
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+ul,ol,li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+dl{
+  margin:0;
+}
+dt+dd {
+  margin:0;
+}
+button{
+  border:none;
+  outline: none;
+}
+.am-slides.banner_pic {
+    height: 240px;
+    overflow-y: hidden;
+    width:100%;
+}
+.row{
+  margin:0;
+}
+/*修改 input 的 placeholder 颜色*/
+input::-webkit-input-placeholder { /* WebKit browsers */
+color: #999;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #999;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #999;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #999;
+}
+
+@defaultColor:#fff;
+@bodyBgColor:#f9f9f9;
+@titleColor:#3f4047;
+@borderColor:#e0e2e1;
+@borderColor2:#e2e2e2;
+@borderColor3:#a9a9a9;
+@borderColor4:#d7d8d8;
+@borderColor5:#82838c;
+@borderColor6:#e71f19;
+@navColor:#5d5f6a;
+@goldColor:#f4cf5c;
+@footerColor:#605d5f;
+@goldBgColor:#f6ca47;
+@numBgColor:#fae5a2;
+@textColor:#333;
+@textRedColor:#fe001e;
+@textRedColor2:#f4252d;
+@textRedColor3:#e74148;
+@textgrayColor:#999;
+@textgrayColor2:#7d7c7d;
+@textgrayColor3:#e6e6e6;
+@textgrayColor4:#ffeae9;
+@linegrayColor1:#bfbfbf;
+@linegrayColor2:#080808;
+@grayBgColor1:#ccc;
+@grayBgColor2:#313131;
+@brownTextColor1:#625947;
+@textColor1:#5e5e5e;
+
+/*修改 input 的 placeholder 颜色结束*/
+@import 'variable.less';
+@import 'property.less';
+@import 'configuration.less';
+@import 'public.less';
+@import 'giftsCategory.less';
+@import 'phoneRecharge.less';
+@import 'giftsList.less';
+@import 'goodsDetails.less';
+@import 'shoppingCart.less';
+@import 'discover.less';
+@import 'discoverInfo.less';
+@import 'orderOk.less';
+@import 'timeLimitBuy.less';

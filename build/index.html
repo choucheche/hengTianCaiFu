@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="author" content="公司企业简介">
+  <meta name="title" content="公司企业简介">
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=750,user-scalable=0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="author" content="恒天商城">
+<meta name="title" content="恒天商城">
+<link href="../../public/css/iconfont.css" rel="stylesheet">
+<link href="../../public/tool/AmazeUI-2.4.2/assets/css/amazeui.min.css" rel="stylesheet">
+<!-- swiper css-->
+<link rel="stylesheet" href="../../public/css/swiper.min.css">
+<!-- <link rel="stylesheet" href="../../public/css/animate.min.css"> -->
+<!-- 引入样式以及js -->
+<link href="../../public/css/UDK.css" rel="stylesheet">
+<link href="../../public/css/default.css" rel="stylesheet">
+<link href="../../public/css/style.css" rel="stylesheet">
+<!-- 引入第三方库 -->
+<script src="../../public/tool/jq/jquery-1.11.1.min.js"></script>
+<!-- amazeui -->
+<script src="../../public/tool/AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
+
+<!-- swiper js-->
+<script src="../../public/js/swiper.min.js"></script>
+<!-- <script src="../../public/js/swiper.animate.min.js"></script> -->
+<script src="../../public/js/default.js"></script>
+
+<title id="title_">首页</title>
+</head>
+<body>
+
+  <title id="title_">首页</title>
+  <link type='text/css' rel='stylesheet' href='./css/index.css'>
+  <link type='text/css' rel='stylesheet' href='./css/index_import.css'>
+</head>
+<body>
+<p>
+  这里的代码是响应式大小，
+  请参考 include/header.html的meta，less/index.less，
+  本页面下面的js控制，当页面大小改变时，html标签上重新算字体大小
+<p>
+<img class='d-b' src='img/me.jpg?rev=@@hash'>
+<script src='public/js/jquery-1.11.1.min.js'></script>
+<script>
+  $(function(){
+    $(window).resize(function() {
+    //当页面宽度变化时
+      (function IsPC() {
+      //判断是 移动端 还是 PC
+        for (var userAgentInfo = navigator.userAgent, Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"], flag = !0, v = 0; v < Agents.length; v++)
+          if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            console.log('移动');
+
+            document.getElementsByTagName('html')[0].style.fontSize=window.screen.width/10+'px';
+            //body字体大小为页面宽度除以 10
+
+            return
+          }
+        console.log('PC');
+
+        document.getElementsByTagName('html')[0].style.fontSize=37.5+'px';
+        /*
+          设置页面 html 文字根字号大小为37.5，为了让 less 好计算
+          这样 less 里的数值是多少就是多少 px了
+        */
+
+        return
+      })();
+    });
+
+  });
+</script>
+
+<script src='js/index.js?rev=@@hash'></script>
+</body>
+</html>

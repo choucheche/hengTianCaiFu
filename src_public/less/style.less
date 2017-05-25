@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+  -webkit-text-size-adjust:none;
+}
+html * {
+    outline: 0;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none; //关闭字体大小自动调整功能.
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body,
+html {
+    font-family: Microsoft YaHei,Helvetica Neue,Helvetica,Roboto,STHeiTi,Arial,sans-serif;
+    width:100%;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+    color: #000;
+    background: #fff;
+    width: 100%;
+    .fs(16);
+    display:inline-block;
+}
+
+body,
+pre {
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+}
+ul,ol,li{
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+dl{
+  margin:0;
+}
+dt+dd {
+  margin:0;
+}
+button{
+  border:none;
+  outline: none;
+}
+.am-slides.banner_pic {
+    height: 240px;
+    overflow-y: hidden;
+    width:100%;
+}
+.row{
+  margin:0;
+}
+/*修改 input 的 placeholder 颜色*/
+input::-webkit-input-placeholder { /* WebKit browsers */
+color: #999;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #999;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #999;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #999;
+}
+
+/*修改 input 的 placeholder 颜色结束*/
+@import 'variable.less';
+@import 'property.less';
+@import 'configuration.less';
+@import 'public.less';
+@import 'giftsCategory.less';
+@import 'phoneRecharge.less';
+@import 'giftsList.less';
+@import 'goodsDetails.less';
+@import 'shoppingCart.less';
+@import 'discover.less';
+@import 'discoverInfo.less';
+@import 'orderOk.less';
+@import 'timeLimitBuy.less';

@@ -1,0 +1,134 @@
+#phoneRecharge{
+
+  .myIntegral{
+    width:100%;
+    height:150px;
+    border-top:1px solid @borderColor2;
+    border-bottom:1px solid @borderColor2;
+    background:@goldBgColor;
+    position:relative;
+    .number{
+      padding:12px 58px;
+      background:@numBgColor;
+      font-size:20px;
+      color:@textColor;
+      line-height:26px;
+      border-radius:10px;
+      margin:0 auto;
+      position:absolute;
+      top:50%;
+      left:50%;
+      z-index:2;
+      transform:translate(-50%,-50%);
+      span{
+        color:@textRedColor;
+        font-size:20px;
+        font-weight:bold;
+      }
+    }
+  }
+  .phoneInputBox{
+    width:100%;
+    height:120px;
+    background:#fff;
+    border-bottom:1px solid @borderColor2;
+    position:relative;
+    input{
+      width:100%;
+      padding:0 0 0 115px;
+      height:120px;
+      background:#fff;
+      color:@textColor;
+      border:none;
+      outline: none;
+      font-size:45px;
+      line-height:120px;
+    }
+    span{
+      position:absolute;
+      left:477px;
+      top:46px;
+      color:@textgrayColor;
+
+      font-size:28px;
+      line-height:36px;
+    }
+  }
+  .moneyList{
+    width:100%;
+    padding: 40px 37.5px;
+    dl{
+      width:180px;
+      height:116px;
+      border:2px @borderColor2 solid;
+      float:left;
+      margin:10px 22.5px;
+      background:#fff;
+      padding-top:18px;
+      border-radius:10px;
+      dt{
+        line-height:41px;
+        font-size:36px;
+        color:@textColor;
+        font-family: Arial;
+      }
+      dd{
+        line-height:29px;
+        font-size:22px;
+        color:@textgrayColor2;
+        padding-top:7px;
+        margin:0;
+        span{
+          color:@textRedColor2;
+          font-size:22px;
+        }
+      }
+    }
+    dl.active{
+      border:3px @goldBgColor solid;
+      background-image: url('../images/public/recharge_icon1.png');
+      background-position:right bottom;
+      background-repeat: no-repeat;
+      background-size:29px 29px;
+    }
+  }
+  .total_num{
+    width:100%;
+    padding:0 0 0 59px;
+    margin-bottom:30px;
+    clear:both;
+    height:32px;
+    .num{
+      padding-left:42px;
+      background:url('../images/public/recharge_icon2.png') no-repeat left center;
+      background-size:32px 32px;
+      color:@textColor;
+      font-size:24px;
+      line-height:32px;
+      span{
+        font-size:24px;
+      }
+    }
+  }
+  .rechargeBox{
+    width:100%;
+    height:60px;
+    margin-bottom:20px;
+    button{
+      margin:0 auto;
+      width:630px;
+      height:60px;
+      color:@textColor;
+      background:@goldBgColor;
+      border-radius:30px;
+      font-size:24px;
+      line-height:60px;
+      text-align:center;
+    }
+    button:hover,button:active{
+      background:@textRedColor2;
+      color:#fff;
+      
+    }
+  }
+}

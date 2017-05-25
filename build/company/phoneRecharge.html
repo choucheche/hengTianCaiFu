@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=750,user-scalable=0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="author" content="恒天商城">
+<meta name="title" content="恒天商城">
+<link href="../../public/css/iconfont.css" rel="stylesheet">
+<link href="../../public/tool/AmazeUI-2.4.2/assets/css/amazeui.min.css" rel="stylesheet">
+<!-- swiper css-->
+<link rel="stylesheet" href="../../public/css/swiper.min.css">
+<!-- <link rel="stylesheet" href="../../public/css/animate.min.css"> -->
+<!-- 引入样式以及js -->
+<link href="../../public/css/UDK.css" rel="stylesheet">
+<link href="../../public/css/default.css" rel="stylesheet">
+<link href="../../public/css/style.css" rel="stylesheet">
+<!-- 引入第三方库 -->
+<script src="../../public/tool/jq/jquery-1.11.1.min.js"></script>
+<!-- amazeui -->
+<script src="../../public/tool/AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
+
+<!-- swiper js-->
+<script src="../../public/js/swiper.min.js"></script>
+<!-- <script src="../../public/js/swiper.animate.min.js"></script> -->
+<script src="../../public/js/default.js"></script>
+
+<title id="title_">首页</title>
+</head>
+<body>
+
+<script>
+	$(function(){
+	   js_.phoneRecharge();
+	});
+</script>
+
+<div class="man_header">
+	<a href="javascript:;"><i class="iconfont">&#xe608;</i></a><span>话费充值</span>
+</div>
+
+<div class='html_body'>
+  <div id='phoneRecharge'>
+		<div class='myIntegral d-b'>
+			<div class='number d-ib'>我的积分：<span>4000</span></div>
+		</div>
+
+		<div class='phoneInputBox d-b'>
+			<input type="number" value="" placeholder="请输入手机号码" oninput="if(value.length>11)value=value.slice(0,11)">
+			<span>中国移动</span>
+		</div>
+
+		<div class='moneyList d-ib'>
+			<dl class='box ta-c'>
+				<dt>50元</dt>
+				<dd>积分：<span class='rechargeNum'>59</span></dd>
+			</dl>
+			<dl class='box ta-c'>
+				<dt>100元</dt>
+				<dd>积分：<span class='rechargeNum'>159</span></dd>
+			</dl>
+			<dl class='box ta-c'>
+				<dt>200元</dt>
+				<dd>积分：<span class='rechargeNum'>259</span></dd>
+			</dl>
+			<dl class='box ta-c active'>
+				<dt>300元</dt>
+				<dd>积分：<span class='rechargeNum'>399</span></dd>
+			</dl>
+		</div>
+
+		<div class='total_num d-b'>
+			<div class='num d-b'>
+				合计：<span class='rechargeNum'>399</span> 积分
+			</div>
+		</div>
+
+		<div class='rechargeBox d-b'>
+			<button class='d-b'>
+				立即充值
+			</button>
+		</div>
+
+    <div data-am-widget="navbar" class="bottom_toolbar am-navbar am-cf am-navbar-default">
+         <ul class="am-navbar-nav am-cf am-avg-sm-4">
+             <li>
+               <a href="javascript:;">>
+                   <span><i class="iconfont" style="margin-left: -25px;">&#xe604;</i></span>
+                   <span class="am-navbar-label">首页</span>
+               </a>
+             </li>
+             <li>
+               <a href="javascript:;">
+                   <span><i class="iconfont">&#xe600;</i></span>
+                   <span class="am-navbar-label">分类</span>
+               </a>
+             </li>
+             <li>
+               <a href="javascript:;">
+                   <span><i class="iconfont">&#xe607;</i></span>
+                   <span class="am-navbar-label">发现</span>
+               </a>
+             </li>
+             <li>
+               <a href="javascript:;">
+                   <span><i class="iconfont">&#xe689;</i></span>
+                   <span class="am-navbar-label">购物车</span>
+               </a>
+             </li>
+             <li>
+               <a href="javascript:;">
+                   <span><i class="iconfont">&#xe6ba;</i></span>
+                   <span class="am-navbar-label">我的</span>
+               </a>
+             </li>
+         </ul>
+     </div>
+
+  </div>
+</div>
+
+
+
+    </body>
+</html>
